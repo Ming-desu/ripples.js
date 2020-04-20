@@ -37,6 +37,7 @@ This dataset should be added in the html tags to customize the usage
 
 ## Bugs and Feature Requests
 Encountered a bug? [Report bug](https://github.com/Ming-desu/ripples.js/issues/new?template=bug.md)
+
 Have feature request? [Request feature](https://github.com/Ming-desu/ripples.js/issues/new?template=feature.md&labels=feature)
 
 
