@@ -13,6 +13,8 @@ A simple ripple effect helper in Javascript
 ```html
 <button class="ripple" type="button" data-ripple="#fff" data-ripple-opacity="0.3" data-ripple-duration="0.4">Click Me</button>
 ```
+This example shows how to customize the ripple with the use of properties
+
 ```html
 <div class="ripple">
   <input type="submit" />
@@ -23,17 +25,18 @@ If the html tag cannot append a child to it like `<input>`, you can do this in o
 ```html
 <a href="#" class="ripple">Click Me</a>
 ```
-
-Do not forget to add the class "ripple" so that the script will know where to put the ripple effect
+This example will still work since it has the required class
 
 ## Parameters
-This dataset should be added in the html tags to customize the usage
+This properties should be added in the html tags to customize the usage
 
-| Parameters             | Default | Description                           |
+| Property               | Default | Description                           |
 | ---------------------- |:-------:| ------------------------------------- |
 | `data-ripple`          | `#FFF`  | The *background color* of the ripple. |
 | `data-ripple-opacity`  | `0.2`   | The *opacity* of the ripple.          |
 | `data-ripple-duration` | `0.3`   | The *duration* of the ripple effect.  |
+
+Do not forget to add the class "ripple" so that the script will know where to put the ripple effect
 
 ## Bugs and Feature Requests
 Encountered a bug? [Report bug](https://github.com/Ming-desu/ripples.js/issues/new?template=bug.md)
